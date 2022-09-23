@@ -1,0 +1,183 @@
+/* h1 {    color: red;
+background-color: aliceblue;
+font-family: Arial, Helvetica, sans-serif;
+font-variant: small-caps;
+text-align: center;
+} */
+
+* {text-decoration: none; 
+}
+
+#top {text-size-adjust: 25px;}
+
+#activ {color: rgb(255, 255, 255);}
+
+/* Changer la couleur des liens des pages avec la classe .lienpage */
+.lienpage { color: rgb(255, 255, 255); text-decoration: none;   
+font-style: italic;
+font-weight: bold;}
+
+a { color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.retourtop {    text-align: right;}
+
+/*    p {text-align: justify;
+font-family: Arial, Helvetica, sans-serif;} */
+
+/*    importation de texte ratée
+ @font-face {
+    font-family: "CoolveticaRg-Italic";
+    src: url("CoolveticaRg-Italic.woff2") format("woff2")
+        url("CoolveticaRg-Italic.woff2") format("woff2")
+          ;
+   }
+  * {
+    font-family: "CoolveticaRg-Italic", sans-serif;
+  } */
+
+ul {
+  list-style-type: none;
+  margin: -10px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;    /* Texte liens soulignés non */
+  font-weight: bold;
+  font-size: 25 px;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: rgba(128, 128, 128, 0.267);
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+
+p, h1, a, h2 {    
+  font-family: 'Jost', sans-serif;
+  color: rgb(255, 255, 255);
+  /* background-color: rgba(0, 0, 0, 0.089); */
+  text-shadow: 1px;
+
+  
+}
+
+p, h1, h2 { 
+/*  width: 900px;   */
+/*  margin-right: 20px; */
+  padding-left: 10px;
+}
+
+body { 
+  background-image: url("parapluie.webp");
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+.retourtop {
+  text-align: right ;  
+  /* padding-right: 20px; */
+  padding-left: 1720px;
+ position: absolute;
+}
+
+footer{
+  background:rgb(0, 0, 0);
+  position:fixed; 
+  bottom:0; 
+  width:100%;
+  margin-left: -8px;
+
+  }
+
+#galerie { width: 75%;
+
+}
+
+main {position: relative;}
+
+#text {width: 50%;
+float: left;}
+
+.EB { margin-left: 60px;
+  display: block;
+  width: 200px; height: auto; 
+  padding-left: 20px;
+  padding-top: 50px;}
+
+iframe { margin-left: 50px;}
+
+footer { clear: both;
+background-color: rgba(0, 0, 0, 0);}
+
+#center { text-align: center;
+font-size: 25px;
+padding-top: 200px;}
+
+.photos {padding-top: 25px;
+  padding-left: 10px;
+}
+
+#Bienvenue {text-align: center
+; font-size: 60px;}
+
+.facebook {padding-left: 25px;}
+
+.twitter {padding-right: 25px;}
+
+.question {font-size: 20px;
+font-weight: bold;}
+
+.reponse {padding-bottom: 13px;}
+
+span { font-size: 25px;
+font-weight: bold;}
+
+h2 {font-size: 25px;}
+
+.nom {font-weight: bold;
+padding-right: 90px;
+padding-left: 0px;
+font-size: 20px;
+}
+
+.metier {padding-right: 90px;
+padding-left: 0px;
+padding-bottom: 30px;} 
+
+.equipe {
+/*column-count: 4; */
+width: 49%;
+display: flex;
+flex-direction: row;}
+
+.descriptionmain {float: left;
+width: 49%;}
+
+#membres {width: 49%;
+padding-left: 750px;
+padding-top: 60px;}
+
+#membres2 {width: 49%;
+padding-left: 750px;}
+
+.maininter {column-count: 4;}
+
+.liste {font-weight: bold;}
+
+.logoch {width: 100px; margin: 35px;}
+
+#mainconclusion {width: 40%;}
+
